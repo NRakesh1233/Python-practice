@@ -1,6 +1,14 @@
 
+import streamlit as st
 
+st.title("squre root calculater")
 
+st.write("Hello, welcome to my first app!")
+
+num = st.slider("Select a value", 0, 100, 50)
+
+sqr = num ** 2
+st.write(f"The square of {num} is {sqr}")
 
 # x=input("Enter your name: ")                                                                   
 
@@ -14,7 +22,7 @@
 #           print("odd number")
 
 
-print("india","pak", "usa",sep='-' )
+# print("india","pak", "usa",sep='-' )
 # x={1,2,3,4,4,5}
 
 # print(x)
@@ -33,8 +41,8 @@ print("india","pak", "usa",sep='-' )
 # for i in "rakesh":
 #      print(i)
 
-for i in {1,3,4,5,55,6,6,43,433}:
-     print(i)
+# for i in {1,3,4,5,55,6,6,43,433}:
+#      print(i)
              
                     
                      
